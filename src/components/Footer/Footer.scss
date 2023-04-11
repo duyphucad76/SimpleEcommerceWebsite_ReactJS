@@ -1,0 +1,49 @@
+@import "../../../node_modules/bootstrap/dist/css/bootstrap";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+h5 {
+  font-size: 16px;
+}
+footer {
+  background-image: url(./public/bg-footer.webp);
+  background-position: center;
+}
+
+.footer-wrapper {
+  margin-top: 60px;
+}
+p {
+  font-size: 14px;
+}
+li {
+  padding: 3px 0;
+}
+li a {
+  color: #333333;
+}
+li a:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #abd373;
+  text-decoration: none;
+}
+.blog-title {
+  color: #333333;
+  font-size: 14px;
+}
+.blog-title:hover {
+  cursor: pointer;
+  color: #f72525;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.blog-post {
+  font-size: 12px;
+}

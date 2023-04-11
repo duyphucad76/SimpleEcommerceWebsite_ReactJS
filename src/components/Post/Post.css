@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,700;1,700&display=swap");
+@import "../../../node_modules/bootstrap/dist/css/bootstrap";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+h5 {
+  font-size: 16px;
+}
+.post-title {
+  font-size: 22px;
+  padding-top: 10px;
+}
+.post-title:hover {
+  color: #abd373;
+  transition: 0.3s ease;
+}
+.post-meta {
+  font-size: 15px;
+}
+.post-des {
+  font-size: 14px;
+  line-height: 29px;
+}
+.btn-readmore {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  background-color: #f2f2f2;
+  padding: 15px 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: none;
+  display: flex;
+  align-items: start;
+}
+.btn-readmore:hover {
+  background-color: #abd373;
+  color: #fff;
+}

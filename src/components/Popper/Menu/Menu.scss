@@ -1,0 +1,35 @@
+.menu-item__title {
+  display: block;
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  display: block;
+  padding: 10px 0;
+  color: #a4a4a4;
+  border-bottom: 1px solid #eee;
+
+  &:hover {
+    color: var(--primary);
+  }
+}
+
+.menupage {
+  .menu-item__title {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    color: #333;
+    transition: 0.3s;
+    border-bottom: none;
+    min-width: 180px;
+    padding-bottom: 8px;
+
+    &:hover {
+      color: var(--primary);
+    }
+  }
+  .menu-item__title:last-child {
+    padding-bottom: 24px;
+  }
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #333333;
+}
+
+:root {
+  --primary: #abd373;
+  --greyColor-1: #868686;
+  --greyColor-2: #a4a4a4;
+  --widthContainer: 1140px;
+}
+
+.container-wrapper {
+  width: var(--widthContainer);
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+// custom styles
+.react-multiple-carousel__arrow {
+  background-color: var(--primary);
+}
+
+.react-multi-carousel-item {
+  padding-left: 10px;
+}

@@ -1,0 +1,30 @@
+.breadcrumb-header {
+  padding: 10px 0px;
+  border-bottom: 1px solid #dee2e6;
+
+  & .container span img {
+    width: 15px;
+  }
+
+  &-content {
+    display: flex;
+    align-items: center;
+    gap: 0px 6px;
+  }
+
+  & a {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #333;
+  }
+
+  &-name {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--primary);
+  }
+}

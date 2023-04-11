@@ -1,0 +1,51 @@
+.category {
+  &-box {
+    position: relative;
+    max-width: 270px;
+    width: 100%;
+
+    & img {
+      width: 100%;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  &-info {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 50px;
+
+    & h5 {
+      margin-bottom: 0;
+    }
+    
+    & h5 a {
+      font-family: IBM Plex Sans, sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 22px;
+      transition: 0.3s;
+      color: #343434;
+      margin-bottom: 0;
+
+      &:hover {
+        color: var(--primary);
+      }
+    }
+  }
+  &-quantity {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+}

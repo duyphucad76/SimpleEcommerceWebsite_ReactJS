@@ -1,0 +1,50 @@
+.fluid {
+  display: flex;
+  align-items: center;
+  gap: 0px 20px;
+  margin-top: 20px;
+  &-img {
+    max-width: 100px;
+    width: 100%;
+
+    & a img {
+      width: 100%;
+    }
+  }
+  &-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: 0.3s;
+    color: #333;
+    margin-bottom: 2px;
+
+    & a:hover {
+      color: var(--primary);
+    }
+  }
+  &-rate svg {
+    color: #ffdd20;
+    font-size: 13px;
+    padding-right: 5px;
+  }
+  &-price {
+    margin-top: 4px;
+  }
+  &-price__new {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: var(--primary);
+    margin-right: 14px;
+  }
+  &-price__old {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    text-decoration: line-through;
+    color: #868686;
+  }
+}

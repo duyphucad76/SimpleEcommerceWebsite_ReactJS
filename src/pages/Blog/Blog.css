@@ -1,0 +1,49 @@
+.col-3 {
+    height: fit-content;
+    padding-bottom: 50px;
+}
+.sidebar-widget-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+input {
+  width: 150px;
+  background: none;
+}
+input:focus {
+  outline: none;
+}
+button[type="submit"] {
+  background: none;
+  padding-left: 10px;
+}
+button[type="submit"]:hover {
+  color: #abd373;
+}
+.recent-post-title {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+.recent-post-title:hover {
+    color: #abd373;
+}
+.recent-post-meta {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.tags {
+  border: none;
+  background: none;
+  outline: solid 1px #dfdddd;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.tags:hover {
+  background-color: #abd373;
+  outline: none;
+  color: white;
+}

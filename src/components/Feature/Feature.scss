@@ -1,0 +1,40 @@
+.feature {
+  &-box {
+    display: flex;
+    align-items: center;
+    max-width: 375px;
+    width: 100%;
+    gap: 0px 20px;
+  }
+  &-icon img {
+    width: 80px;
+  }
+  &-content {
+  }
+  &-title {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 10px;
+    color: var(--primary);
+  }
+  &-desc {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #333;
+    margin-bottom: 0;
+  }
+
+  &-detail {
+    max-width: 187px;
+    gap: 0px 8px;
+
+    img {
+      max-width: 40px;
+      width: 40px !important;
+    }
+  }
+}
